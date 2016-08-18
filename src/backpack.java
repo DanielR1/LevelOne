@@ -1,25 +1,24 @@
-
-public class backpack {
+public class Backpack {
 	
 	private Pencil pencil;
 	private Ruler ruler;
 	private Textbook textbook;
 
-	backpack(){
+	Backpack(){
 		System.out.println("Nice Backpack");
 	}
 	
 	public static void main (String[] args){
 		/* Your mission is to get to school, but first you need to get all of your supplies into your backpack. */
-
-backpack jimmy = new backpack();
+Backpack thing = new Backpack();
 Pencil a = new Pencil();
-jimmy.putInBackpack(a);
-Ruler b = new Ruler();  
-jimmy.putInBackpack(b);
+thing.putInBackpack(a);
+Ruler b = new Ruler();
+thing.putInBackpack(b);
 Textbook c = new Textbook();
-jimmy.putInBackpack(c);
-jimmy.goToSchool();
+thing.putInBackpack(c);
+thing.goToSchool();
+
 
 	}
 	
@@ -87,5 +86,4 @@ class Textbook extends Supply{
 		System.out.println("The history of Iceland is long and interesting");
 	}
 }
-
 
