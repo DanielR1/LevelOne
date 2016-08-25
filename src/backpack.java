@@ -1,10 +1,10 @@
-public class Backpack {
+public class backpack {
 	
 	private Pencil pencil;
 	private Ruler ruler;
 	private Textbook textbook;
 
-	Backpack(){
+	backpack(){
 		System.out.println("Nice Backpack");
 	}
 	
