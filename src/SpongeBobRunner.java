@@ -1,5 +1,5 @@
 
-public class SpongebobRunner {
+public class SpongeBobRunner {
 public static void main(String[] args) {
 	SeaCreature Spongebob = new SeaCreature("Spongebob");
 	
